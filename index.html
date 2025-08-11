@@ -33,11 +33,20 @@
       <li><a href="https://dolphin-emu.org/" target="_blank">Dolphin Emulator</a></li>
       <li><a href="https://play.google.com/store/apps/dev?id=6391037168996217651" target="_blank">Google Play Apps</a></li>
       <li><a href="https://forums.kc-mm.com/Gallery/BrawlView.php?ByUserID=38223" target="_blank">Super Smash Bros. Brawl Mods</a></li>
+      <li><a href="https://ebola16.github.io/random-image-examples/" target="_blank">Example Random Image Websites</a></li>
       <li><a href="https://www.deviantart.com/ryanebola16" target="_blank">DeviantArt</a></li>
     </ul>
   </main>
   <footer class="footer-fade-in">
     &copy; 2025 Ebola16. All rights reserved.
   </footer>
+  <script>
+    // Auto-apply staggered animation delays to list items
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("main ul li").forEach((li, index) => {
+        li.style.animationDelay = `${0.3 + index * 0.2}s`;
+      });
+    });
+  </script>
 </body>
 </html>
